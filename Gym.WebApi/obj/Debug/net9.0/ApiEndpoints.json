@@ -1,0 +1,569 @@
+[
+  {
+    "ContainingType": "Gym.WebApi.Controllers.CategoriaController",
+    "Method": "ActualizarCat",
+    "RelativePath": "api/Categoria/actualizarcat/{idCategoria}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "Gym.Share.Model.cCategoria",
+        "IsRequired": true
+      },
+      {
+        "Name": "idCategoria",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.CategoriaController",
+    "Method": "AgregarCat",
+    "RelativePath": "api/Categoria/agregarcat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "Gym.Share.Model.cCategoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.CategoriaController",
+    "Method": "EliminarCat",
+    "RelativePath": "api/Categoria/eliminarcat/{idCategoria}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoria",
+        "Type": "Gym.Share.Model.cCategoria",
+        "IsRequired": true
+      },
+      {
+        "Name": "idCategoria",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.CategoriaController",
+    "Method": "getCategorias",
+    "RelativePath": "api/Categoria/getCategorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Gym.Share.Model.cCategoria, Gym.Share, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.ClienteController",
+    "Method": "ActualizarCliente",
+    "RelativePath": "api/Cliente/actualizarCliente/{identificacion}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "Gym.Share.Model.cCliente",
+        "IsRequired": true
+      },
+      {
+        "Name": "identificacion",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.ClienteController",
+    "Method": "AgregarCliente",
+    "RelativePath": "api/Cliente/agregarCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "Gym.Share.Model.cCliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.ClienteController",
+    "Method": "EliminarCliente",
+    "RelativePath": "api/Cliente/eliminarCliente/{identificacion}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cliente",
+        "Type": "Gym.Share.Model.cCliente",
+        "IsRequired": true
+      },
+      {
+        "Name": "identificacion",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.ClienteController",
+    "Method": "getClientes",
+    "RelativePath": "api/Cliente/getClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.EjercicioController",
+    "Method": "ActualizarEjercicio",
+    "RelativePath": "api/Ejercicio/actualizarEjercicio/{idEjercicio}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ejercicio",
+        "Type": "Gym.Share.Model.cEjercicio",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEjercicio",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.EjercicioController",
+    "Method": "AgregarEjercicio",
+    "RelativePath": "api/Ejercicio/agregarEjercicio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ejercicio",
+        "Type": "Gym.Share.Model.cEjercicio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.EjercicioController",
+    "Method": "EliminarEjercicio",
+    "RelativePath": "api/Ejercicio/eliminarEjercicio/{idEjercicio}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ejercicio",
+        "Type": "Gym.Share.Model.cEjercicio",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEjercicio",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.EjercicioController",
+    "Method": "getEjercicios",
+    "RelativePath": "api/Ejercicio/getEjercicios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Gym.Share.Model.cEjercicio, Gym.Share, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.RutinaController",
+    "Method": "ActualizarRutina",
+    "RelativePath": "api/Rutina/actualizarRutina/{idRutina}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rutina",
+        "Type": "Gym.Share.Model.cRutina",
+        "IsRequired": true
+      },
+      {
+        "Name": "idRutina",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.RutinaController",
+    "Method": "AgregarRutina",
+    "RelativePath": "api/Rutina/agregarRutina",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rutina",
+        "Type": "Gym.Share.Model.cRutina",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.RutinaController",
+    "Method": "EliminarRutina",
+    "RelativePath": "api/Rutina/eliminarRutina/{idRutina}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRutina",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.RutinaController",
+    "Method": "getRutinas",
+    "RelativePath": "api/Rutina/getRutinas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Gym.Share.Model.cRutina, Gym.Share, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.RutinaEjercicioController",
+    "Method": "ActualizarRutinaEjercicio",
+    "RelativePath": "api/RutinaEjercicio/actualizarRutinaEjercicio/{idRutina}/{idEjercicio}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rutinaEjercicio",
+        "Type": "Gym.Share.Model.cRutinaEjercicio",
+        "IsRequired": true
+      },
+      {
+        "Name": "idRutina",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEjercicio",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.RutinaEjercicioController",
+    "Method": "AgregarRutinaEjercicio",
+    "RelativePath": "api/RutinaEjercicio/agregarRutinaEjercicio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rutinaEjercicio",
+        "Type": "Gym.Share.Model.cRutinaEjercicio",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.RutinaEjercicioController",
+    "Method": "EliminarRutinaEjercicio",
+    "RelativePath": "api/RutinaEjercicio/eliminarRutinaEjercicio/{idRutina}/{idEjercicio}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRutina",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "idEjercicio",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.RutinaEjercicioController",
+    "Method": "getRutinaEjercicios",
+    "RelativePath": "api/RutinaEjercicio/getRutinaEjercicios/{idRutina}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRutina",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Gym.Share.Model.cRutinaEjercicio, Gym.Share, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Gym.WebApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Gym.WebApi.WeatherForecast, Gym.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

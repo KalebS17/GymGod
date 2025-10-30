@@ -1,0 +1,24 @@
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.csproj.AssemblyReference.cache
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.AssemblyInfoInputs.cache
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.AssemblyInfo.cs
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.csproj.CoreCompileInputs.cache
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\bin\Debug\net9.0\Gym.Share.deps.json
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\bin\Debug\net9.0\Gym.Share.dll
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\bin\Debug\net9.0\Gym.Share.pdb
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.dll
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\obj\Debug\net9.0\refint\Gym.Share.dll
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.pdb
+C:\Users\Dell Latitude 3500\Desktop\Progra V\Progra5\Gym.Share\obj\Debug\net9.0\ref\Gym.Share.dll
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\bin\Debug\net9.0\Gym.Share.deps.json
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\bin\Debug\net9.0\Gym.Share.dll
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\bin\Debug\net9.0\Gym.Share.pdb
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.csproj.AssemblyReference.cache
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.AssemblyInfoInputs.cache
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.AssemblyInfo.cs
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.csproj.CoreCompileInputs.cache
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.dll
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\obj\Debug\net9.0\refint\Gym.Share.dll
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\obj\Debug\net9.0\Gym.Share.pdb
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.Share\obj\Debug\net9.0\ref\Gym.Share.dll
