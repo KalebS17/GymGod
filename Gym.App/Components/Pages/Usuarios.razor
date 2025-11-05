@@ -1,0 +1,88 @@
+﻿@page "/usuarios"
+@using Gym.App.Data.Services
+@using Gym.Share.Model
+@inject ISnackbar snackb;
+
+<div class="align-content-center">
+    <h4>Lista de Usuarios</h4>
+</div>
+
+<div class="row">
+    <div class="col-4">
+        <button class="btn btn-primary rounded-3" @onclick="loadUserList"> Cargar Lista de Usuarios </button>
+    </div>
+</div>
+
+<div class="row">
+    <MudDataGrid T="cUsuario" Items="mListaUsuarios" Dense>
+        <Columns>
+            <PropertyColumn Property="x => x.IdUsuario" Title="ID Usuario"/>
+            <PropertyColumn Property="x => x.Nombre" Title="Nombre"/>
+            <PropertyColumn Property="x => x.Correo" Title="Correo" />
+            <PropertyColumn Property="x => x.TipoUsuario" Title="Tipo de Usuario" />
+            <PropertyColumn Property="x => x.Estado" Title="Estado" />
+            <PropertyColumn Property="x => x.Password" Title="Password" />
+        </Columns>
+    </MudDataGrid>
+</div>
+
+
+<div class= "row">
+
+    <div class=" mt-2 text-center">
+        <h5>Agregar Usuario</h5>
+    </div>
+    <div class="row">
+        <MudTextField @bind-Value="memUsuario.IdUsuario" Label="Digite el Id del Usuario"
+            Variant="Variant.Outlined">
+        </MudTextField>
+    </div>
+
+    <div class="row">
+        <MudTextField @bind-Value="memUsuario.Nombre" Label="Digite el Nombre del Usuario"
+                      Variant="Variant.Outlined">
+        </MudTextField>
+    </div>
+
+    <div class="row">
+        <MudTextField @bind-Value="memUsuario.Correo" Label="Digite el Correo del Usuario"
+                      Variant="Variant.Outlined">
+        </MudTextField>
+    </div>
+
+    <div class="row">
+        <button class= "btn btn-primary rounded-3" @onclick= "addUsuario"> Agregar Usuario </button>
+    </div>
+</div>
+
+@code {
+    private List<cUsuario> mListaUsuarios = new List<cUsuario>();
+    cUsuario memUsuario = new cUsuario();
+
+    //metodo para cargar usuarios
+    private void loadUserList()
+    {
+        dsFireBase_Usuario cargar = new dsFireBase_Usuario();
+        mListaUsuarios = cargar.GetUsuarios();
+        snackb.Add("Lista de Usuarios Actuaizada ", Severity.Success);
+    }
+
+    //metodo para anadir un usuario
+    private void addUsuario()
+    {
+        dsFireBase_Usuario agregar = new dsFireBase_Usuario();
+
+        if(agregar.addUsuario(memUsuario)== true){
+
+            mListaUsuarios = agregar.GetUsuarios();
+            snackb.Add("El usuario se agrego correctamente", Severity.Success);
+            memUsuario.IdUsuario = "";
+            memUsuario.Nombre = "";
+            memUsuario.Correo = "";
+        }
+        else
+        {
+            snackb.Add("Error al agregar el Usuario", Severity.Error);
+        }
+    }
+}

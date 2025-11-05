@@ -1,0 +1,8 @@
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.App\wwwroot\css\app.css
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.App\wwwroot\index.html
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.App\wwwroot\css\bootstrap\bootstrap.min.css
+C:\Users\flowk\OneDrive\Escritorio\Progra5\Gym.App\wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html

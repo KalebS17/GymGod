@@ -1,0 +1,31 @@
+﻿@page "/"
+@using Gym.Bll.Interface;
+@using Gym.Share.Model;
+@inject ICategoria mdsCategoria;
+@inject ISnackbar sb;
+
+<div>
+    <button class="btn btn-primary" @onclick="CargarDatos"> Cargar Datos</button>
+</div>
+
+<div class="row">
+    @foreach (var item in mLista)
+    {
+        <div class="col-3">
+            <div class="card m-2">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Categoria</h5>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code{
+    List<cCategoria> mLista = new List<cCategoria>();
+    private async Task CargarDatos()
+    {
+        mLista = await mdsCategoria.getCategorias();
+        sb.Add(mLista.Count.ToString(), Severity.Normal);
+    }
+}

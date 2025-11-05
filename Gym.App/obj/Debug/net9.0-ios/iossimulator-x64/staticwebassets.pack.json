@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\flowk\\OneDrive\\Escritorio\\Progra5\\Gym.App\\obj\\Debug\\net9.0-ios\\iossimulator-x64\\scopedcss\\bundle\\Gym.App.styles.css",
+      "PackagePath": "staticwebassets\\Gym.App.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\flowk\\OneDrive\\Escritorio\\Progra5\\Gym.App\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\flowk\\OneDrive\\Escritorio\\Progra5\\Gym.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\flowk\\OneDrive\\Escritorio\\Progra5\\Gym.App\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\flowk\\OneDrive\\Escritorio\\Progra5\\Gym.App\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.Gym.App.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.Gym.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.build.Gym.App.props",
+      "PackagePath": "build\\Gym.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildMultiTargeting.Gym.App.props",
+      "PackagePath": "buildMultiTargeting\\Gym.App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0-ios\\iossimulator-x64\\staticwebassets\\msbuild.buildTransitive.Gym.App.props",
+      "PackagePath": "buildTransitive\\Gym.App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
